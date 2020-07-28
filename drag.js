@@ -8,7 +8,7 @@
 			this.outBox.style.position = "relative"
 			this.init()
 		} else {
-			throw new Error('请传入正确的元素id啊啊啊')
+			throw new Error('请传入正确的元素id')
 		}
 	}
 	Drag.prototype = {
